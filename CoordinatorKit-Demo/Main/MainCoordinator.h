@@ -8,6 +8,6 @@
 
 @import CoordinatorKit;
 
-@interface MainCoordinator : Coordinator <Presentable>
+@interface MainCoordinator : NavigationCoordinator
 
 @end

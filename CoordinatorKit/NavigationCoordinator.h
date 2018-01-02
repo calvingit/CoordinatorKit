@@ -34,9 +34,6 @@
  then keep that flow inside the given container controller.
  Expose to Coordinator only those behaviors that cause push/pop/present to bubble up
  */
-
-
-
 @interface NavigationCoordinator : Coordinator <Presentable>
 
 @property (nonatomic, readonly) id<Routable> router;

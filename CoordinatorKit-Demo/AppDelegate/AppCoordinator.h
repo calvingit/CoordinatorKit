@@ -9,5 +9,5 @@
 @import CoordinatorKit;
 
 @interface AppCoordinator : WindowCoordinator
-- (instancetype)initWithWindowRouter:(WindowRouter *)router;
+
 @end

@@ -10,20 +10,13 @@
 #import "MainCoordinator.h"
 
 @interface AppCoordinator ()
-@property (nonatomic) WindowRouter *router;
+
 @end
 
 @implementation AppCoordinator
-- (instancetype)initWithWindowRouter:(WindowRouter *)router{
-    if (self = [super init]) {
-        _router = router;
-    }
-    return self;
-}
-
 
 - (void)start{
-    MainCoordinator *mainCoordinator = [[MainCoordinator alloc] init];
+    MainCoordinator *mainCoordinator = [[MainCoordinator alloc] initWithRouter:[NavigationRouter createNewInstance]];
     [self startChildCoordinator:mainCoordinator];
     [self.router setRootModule:mainCoordinator];
 }

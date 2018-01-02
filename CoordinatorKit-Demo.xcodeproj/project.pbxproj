@@ -14,6 +14,8 @@
 		5A1F1D131FFB320000378202 /* SettingsCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1F1D121FFB320000378202 /* SettingsCoordinator.m */; };
 		5A1F1D171FFB32A500378202 /* Feed.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1F1D161FFB32A500378202 /* Feed.m */; };
 		5A1F1D191FFB337400378202 /* FeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A1F1D181FFB337400378202 /* FeedViewController.xib */; };
+		5A1F1D281FFBBC4F00378202 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1F1D261FFBBC4F00378202 /* ProfileViewController.m */; };
+		5A1F1D291FFBBC4F00378202 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A1F1D271FFBBC4F00378202 /* ProfileViewController.xib */; };
 		5A2C65751FF7D0700072E30F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2C65741FF7D0700072E30F /* AppDelegate.m */; };
 		5A2C657D1FF7D0700072E30F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A2C657C1FF7D0700072E30F /* Assets.xcassets */; };
 		5A2C65801FF7D0700072E30F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A2C657E1FF7D0700072E30F /* LaunchScreen.storyboard */; };
@@ -84,6 +86,9 @@
 		5A1F1D151FFB32A500378202 /* Feed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Feed.h; sourceTree = "<group>"; };
 		5A1F1D161FFB32A500378202 /* Feed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Feed.m; sourceTree = "<group>"; };
 		5A1F1D181FFB337400378202 /* FeedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedViewController.xib; sourceTree = "<group>"; };
+		5A1F1D251FFBBC4F00378202 /* ProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		5A1F1D261FFBBC4F00378202 /* ProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		5A1F1D271FFBBC4F00378202 /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
 		5A2C65701FF7D0700072E30F /* CoordinatorKit-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoordinatorKit-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A2C65731FF7D0700072E30F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5A2C65741FF7D0700072E30F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -165,6 +170,9 @@
 				5A1F1D0C1FFB31E500378202 /* SettingsViewController.h */,
 				5A1F1D0D1FFB31E500378202 /* SettingsViewController.m */,
 				5A1F1D0E1FFB31E500378202 /* SettingsViewController.xib */,
+				5A1F1D251FFBBC4F00378202 /* ProfileViewController.h */,
+				5A1F1D261FFBBC4F00378202 /* ProfileViewController.m */,
+				5A1F1D271FFBBC4F00378202 /* ProfileViewController.xib */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -386,6 +394,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A1F1D291FFBBC4F00378202 /* ProfileViewController.xib in Resources */,
 				5A2C65A11FF7EE230072E30F /* LoginViewController.xib in Resources */,
 				5A2C65801FF7D0700072E30F /* LaunchScreen.storyboard in Resources */,
 				5A2C65A61FF7EE420072E30F /* SignUpViewController.xib in Resources */,
@@ -413,6 +422,7 @@
 				5A2C65A01FF7EE230072E30F /* LoginViewController.m in Sources */,
 				5A2C65971FF7DFC80072E30F /* AppCoordinator.m in Sources */,
 				5A1F1D081FFB31AA00378202 /* FeedCoordinator.m in Sources */,
+				5A1F1D281FFBBC4F00378202 /* ProfileViewController.m in Sources */,
 				5A2C65A91FF7EE700072E30F /* MainCoordinator.m in Sources */,
 				5A2C659C1FF7EDFB0072E30F /* LoginCoordinator.m in Sources */,
 				5A1F1D131FFB320000378202 /* SettingsCoordinator.m in Sources */,

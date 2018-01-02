@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @protocol SettingsViewControllerDelegate <NSObject>
+- (void)didClickedProfile;
 - (void)didClickedLogin;
 @end
 

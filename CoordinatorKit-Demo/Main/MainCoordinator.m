@@ -17,8 +17,8 @@
 
 @implementation MainCoordinator
 
-- (instancetype)init{
-    if (self = [super init]) {
+- (instancetype)initWithRouter:(id<Routable>)router{
+    if (self = [super initWithRouter:router]) {
         _tabBarController = [[UITabBarController alloc] init];
         _tabBarController.delegate = self;
     }
@@ -26,6 +26,7 @@
 }
 
 - (void)start{
+    
     UINavigationController *feedNav = [UINavigationController new];
     feedNav.tabBarItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemHistory tag:0];
     FeedCoordinator *feedCoordinator = [[FeedCoordinator alloc] initWithRouter:[[NavigationRouter alloc] initWithNavigationController:feedNav]];
@@ -40,10 +41,9 @@
     self.tabBarController.viewControllers = @[feedCoordinator.presentableViewController,
                                              settingsCoordinator.presentableViewController];
     self.tabBarController.selectedIndex = 0;
-}
-
-- (UIViewController *)presentableViewController{
-    return _tabBarController;
+    
+    ///在这里需要隐藏自身的导航栏，否则的话，feedNav的导航栏会被盖住
+    [self.router setRootModule:_tabBarController hideNavigationBar:YES];
 }
 
 

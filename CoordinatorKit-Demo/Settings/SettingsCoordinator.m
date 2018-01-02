@@ -9,6 +9,8 @@
 #import "SettingsCoordinator.h"
 #import "SettingsViewController.h"
 #import "LoginCoordinator.h"
+#import "ProfileViewController.h"
+
 @interface SettingsCoordinator () <SettingsViewControllerDelegate, LoginCoordinatorDelegate>
 
 @end
@@ -23,12 +25,20 @@
     [self.router setRootModule:vc hideNavigationBar:NO];
 }
 
+#pragma mark - SettingsViewControllerDelegate
 - (void)didClickedLogin{
     NavigationRouter *router = [NavigationRouter createNewInstance];
     LoginCoordinator *loginCoordinator = [[LoginCoordinator alloc] initWithRouter:router];
     loginCoordinator.delegate = self;
     [self startChildCoordinator:loginCoordinator];
     [self.router presentModule:loginCoordinator animated:YES];
+}
+
+- (void)didClickedProfile{
+    ProfileViewController *vc = [[ProfileViewController alloc] initWithNibName:nil bundle:nil];
+    vc.parentCoordinator = self;
+    vc.hidesBottomBarWhenPushed = YES;
+    [self.router pushModule:vc animated:YES completion:nil];
 }
 
 #pragma mark - LoginCoordinatorDelegate
