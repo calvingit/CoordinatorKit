@@ -17,7 +17,7 @@
                BlueprintIdentifier = "5AB289C51FFA353B004E78E1"
                BuildableName = "CoordinatorKit.framework"
                BlueprintName = "CoordinatorKit"
-               ReferencedContainer = "container:Coordinator-OC.xcodeproj">
+               ReferencedContainer = "container:CoordinatorKit-Demo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -50,7 +50,7 @@
             BlueprintIdentifier = "5AB289C51FFA353B004E78E1"
             BuildableName = "CoordinatorKit.framework"
             BlueprintName = "CoordinatorKit"
-            ReferencedContainer = "container:Coordinator-OC.xcodeproj">
+            ReferencedContainer = "container:CoordinatorKit-Demo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -68,7 +68,7 @@
             BlueprintIdentifier = "5AB289C51FFA353B004E78E1"
             BuildableName = "CoordinatorKit.framework"
             BlueprintName = "CoordinatorKit"
-            ReferencedContainer = "container:Coordinator-OC.xcodeproj">
+            ReferencedContainer = "container:CoordinatorKit-Demo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
