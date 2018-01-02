@@ -20,7 +20,7 @@ FOUNDATION_EXPORT const unsigned char CoordinatorKitVersionString[];
 #import <CoordinatorKit/Routable.h>
 #import <CoordinatorKit/Presentable.h>
 #import <CoordinatorKit/NavigationCoordinator.h>
-#import <CoordinatorKit/Router.h>
+#import <CoordinatorKit/NavigationRouter.h>
 #import <CoordinatorKit/UIResponder+Coordinating.h>
 #import <CoordinatorKit/UIViewController+Coordinating.h>
 #import <CoordinatorKit/WindowRouter.h>

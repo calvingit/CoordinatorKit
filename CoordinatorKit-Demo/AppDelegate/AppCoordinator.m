@@ -1,13 +1,13 @@
 //
 //  AppCoordinator.m
-//  Coordinator-OC
+//  CoordinatorKit
 //
 //  Created by zhangwen on 2017/12/30.
 //  Copyright © 2017年 zhangwen. All rights reserved.
 //
 
 #import "AppCoordinator.h"
-#import "LoginCoordinator.h"
+#import "MainCoordinator.h"
 
 @interface AppCoordinator ()
 @property (nonatomic) WindowRouter *router;
@@ -23,11 +23,9 @@
 
 
 - (void)start{
-    UINavigationController *nav = [[UINavigationController alloc] init];
-    Router *loginRouter = [[Router alloc] initWithNavigationController:nav];
-    LoginCoordinator *loginCoordinator = [[LoginCoordinator alloc] initWithRouter:loginRouter];
-    [self.router setRootModule:loginCoordinator];
-    [self startChildCoordinator:loginCoordinator];
+    MainCoordinator *mainCoordinator = [[MainCoordinator alloc] init];
+    [self startChildCoordinator:mainCoordinator];
+    [self.router setRootModule:mainCoordinator];
 }
 
 @end

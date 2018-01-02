@@ -1,6 +1,6 @@
 //
 //  LoginCoordinator.m
-//  Coordinator-OC
+//  CoordinatorKit
 //
 //  Created by zhangwen on 2017/12/30.
 //  Copyright © 2017年 zhangwen. All rights reserved.
@@ -21,10 +21,19 @@
     vc.delegate = self;
     vc.parentCoordinator = self;
     
-    [self.router pushModule:vc animated:YES completion:nil];
+    [self.router setRootModule:vc hideNavigationBar:NO];
 }
 
 #pragma mark - LoginViewControllerDelegate
+
+- (void)didLoginSuccessful{
+    [self.delegate didLoginSuccessful:self];
+    
+}
+
+- (void)cancelLogin{
+    [self.delegate cancelLogin:self];
+}
 
 - (void)didTapSignUpButton:(LoginViewController *)viewController{
     SignUpCoordinator *coordinator = [[SignUpCoordinator alloc] initWithRouter:self.router];

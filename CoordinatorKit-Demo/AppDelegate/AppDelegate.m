@@ -1,6 +1,6 @@
 //
 //  AppDelegate.m
-//  Coordinator-OC
+//  CoordinatorKit
 //
 //  Created by zhangwen on 2017/12/30.
 //  Copyright © 2017年 zhangwen. All rights reserved.

@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A1F1D081FFB31AA00378202 /* FeedCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1F1D071FFB31AA00378202 /* FeedCoordinator.m */; };
+		5A1F1D0B1FFB31BC00378202 /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1F1D0A1FFB31BC00378202 /* FeedViewController.m */; };
+		5A1F1D0F1FFB31E500378202 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1F1D0D1FFB31E500378202 /* SettingsViewController.m */; };
+		5A1F1D101FFB31E500378202 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A1F1D0E1FFB31E500378202 /* SettingsViewController.xib */; };
+		5A1F1D131FFB320000378202 /* SettingsCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1F1D121FFB320000378202 /* SettingsCoordinator.m */; };
+		5A1F1D171FFB32A500378202 /* Feed.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1F1D161FFB32A500378202 /* Feed.m */; };
+		5A1F1D191FFB337400378202 /* FeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A1F1D181FFB337400378202 /* FeedViewController.xib */; };
 		5A2C65751FF7D0700072E30F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2C65741FF7D0700072E30F /* AppDelegate.m */; };
 		5A2C657D1FF7D0700072E30F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A2C657C1FF7D0700072E30F /* Assets.xcassets */; };
 		5A2C65801FF7D0700072E30F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A2C657E1FF7D0700072E30F /* LaunchScreen.storyboard */; };
@@ -22,9 +29,9 @@
 		5AB289CA1FFA353B004E78E1 /* CoordinatorKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AB289C81FFA353B004E78E1 /* CoordinatorKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5AB289CD1FFA353B004E78E1 /* CoordinatorKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB289C61FFA353B004E78E1 /* CoordinatorKit.framework */; };
 		5AB289CE1FFA353B004E78E1 /* CoordinatorKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB289C61FFA353B004E78E1 /* CoordinatorKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5AB289E21FFA3611004E78E1 /* Router.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB289D31FFA3610004E78E1 /* Router.m */; };
+		5AB289E21FFA3611004E78E1 /* NavigationRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB289D31FFA3610004E78E1 /* NavigationRouter.m */; };
 		5AB289E31FFA3611004E78E1 /* NavigationCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB289D41FFA3610004E78E1 /* NavigationCoordinator.m */; };
-		5AB289E41FFA3611004E78E1 /* Router.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AB289D51FFA3610004E78E1 /* Router.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AB289E41FFA3611004E78E1 /* NavigationRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AB289D51FFA3610004E78E1 /* NavigationRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5AB289E51FFA3611004E78E1 /* WindowRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AB289D61FFA3610004E78E1 /* WindowRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5AB289E61FFA3611004E78E1 /* Routable.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AB289D71FFA3610004E78E1 /* Routable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5AB289E81FFA3611004E78E1 /* WindowRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB289D91FFA3610004E78E1 /* WindowRouter.m */; };
@@ -65,6 +72,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5A1F1D061FFB31AA00378202 /* FeedCoordinator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedCoordinator.h; sourceTree = "<group>"; };
+		5A1F1D071FFB31AA00378202 /* FeedCoordinator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedCoordinator.m; sourceTree = "<group>"; };
+		5A1F1D091FFB31BC00378202 /* FeedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedViewController.h; sourceTree = "<group>"; };
+		5A1F1D0A1FFB31BC00378202 /* FeedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
+		5A1F1D0C1FFB31E500378202 /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		5A1F1D0D1FFB31E500378202 /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		5A1F1D0E1FFB31E500378202 /* SettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		5A1F1D111FFB320000378202 /* SettingsCoordinator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsCoordinator.h; sourceTree = "<group>"; };
+		5A1F1D121FFB320000378202 /* SettingsCoordinator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsCoordinator.m; sourceTree = "<group>"; };
+		5A1F1D151FFB32A500378202 /* Feed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Feed.h; sourceTree = "<group>"; };
+		5A1F1D161FFB32A500378202 /* Feed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Feed.m; sourceTree = "<group>"; };
+		5A1F1D181FFB337400378202 /* FeedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedViewController.xib; sourceTree = "<group>"; };
 		5A2C65701FF7D0700072E30F /* CoordinatorKit-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoordinatorKit-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A2C65731FF7D0700072E30F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5A2C65741FF7D0700072E30F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -89,9 +108,9 @@
 		5AB289C61FFA353B004E78E1 /* CoordinatorKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoordinatorKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AB289C81FFA353B004E78E1 /* CoordinatorKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoordinatorKit.h; sourceTree = "<group>"; };
 		5AB289C91FFA353B004E78E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5AB289D31FFA3610004E78E1 /* Router.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Router.m; sourceTree = "<group>"; };
+		5AB289D31FFA3610004E78E1 /* NavigationRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationRouter.m; sourceTree = "<group>"; };
 		5AB289D41FFA3610004E78E1 /* NavigationCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationCoordinator.m; sourceTree = "<group>"; };
-		5AB289D51FFA3610004E78E1 /* Router.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Router.h; sourceTree = "<group>"; };
+		5AB289D51FFA3610004E78E1 /* NavigationRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationRouter.h; sourceTree = "<group>"; };
 		5AB289D61FFA3610004E78E1 /* WindowRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowRouter.h; sourceTree = "<group>"; };
 		5AB289D71FFA3610004E78E1 /* Routable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Routable.h; sourceTree = "<group>"; };
 		5AB289D91FFA3610004E78E1 /* WindowRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindowRouter.m; sourceTree = "<group>"; };
@@ -126,6 +145,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A1F1D041FFB317400378202 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				5A1F1D061FFB31AA00378202 /* FeedCoordinator.h */,
+				5A1F1D071FFB31AA00378202 /* FeedCoordinator.m */,
+				5A1F1D091FFB31BC00378202 /* FeedViewController.h */,
+				5A1F1D0A1FFB31BC00378202 /* FeedViewController.m */,
+				5A1F1D181FFB337400378202 /* FeedViewController.xib */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		5A1F1D051FFB318D00378202 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				5A1F1D111FFB320000378202 /* SettingsCoordinator.h */,
+				5A1F1D121FFB320000378202 /* SettingsCoordinator.m */,
+				5A1F1D0C1FFB31E500378202 /* SettingsViewController.h */,
+				5A1F1D0D1FFB31E500378202 /* SettingsViewController.m */,
+				5A1F1D0E1FFB31E500378202 /* SettingsViewController.xib */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		5A1F1D141FFB329500378202 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5A1F1D151FFB32A500378202 /* Feed.h */,
+				5A1F1D161FFB32A500378202 /* Feed.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		5A2C65671FF7D0700072E30F = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +199,9 @@
 		5A2C65721FF7D0700072E30F /* CoordinatorKit-Demo */ = {
 			isa = PBXGroup;
 			children = (
+				5A1F1D141FFB329500378202 /* Models */,
+				5A1F1D051FFB318D00378202 /* Settings */,
+				5A1F1D041FFB317400378202 /* Feed */,
 				5A2C65991FF7EDC60072E30F /* Main */,
 				5A2C65981FF7ED9F0072E30F /* Login */,
 				5A2C65941FF7DF990072E30F /* AppDelegate */,
@@ -212,8 +267,8 @@
 				5AB289D41FFA3610004E78E1 /* NavigationCoordinator.m */,
 				5AB289DD1FFA3610004E78E1 /* Presentable.h */,
 				5AB289D71FFA3610004E78E1 /* Routable.h */,
-				5AB289D51FFA3610004E78E1 /* Router.h */,
-				5AB289D31FFA3610004E78E1 /* Router.m */,
+				5AB289D51FFA3610004E78E1 /* NavigationRouter.h */,
+				5AB289D31FFA3610004E78E1 /* NavigationRouter.m */,
 				5AB289DE1FFA3610004E78E1 /* UIResponder+Coordinating.h */,
 				5AB289E01FFA3610004E78E1 /* UIResponder+Coordinating.m */,
 				5AB289E11FFA3611004E78E1 /* UIViewController+Coordinating.h */,
@@ -242,7 +297,7 @@
 				5AB289CA1FFA353B004E78E1 /* CoordinatorKit.h in Headers */,
 				5AB289F01FFA3611004E78E1 /* UIViewController+Coordinating.h in Headers */,
 				5AB289E61FFA3611004E78E1 /* Routable.h in Headers */,
-				5AB289E41FFA3611004E78E1 /* Router.h in Headers */,
+				5AB289E41FFA3611004E78E1 /* NavigationRouter.h in Headers */,
 				5AB289F31FFA3A3B004E78E1 /* WindowCoordinator.h in Headers */,
 				5AB289ED1FFA3611004E78E1 /* UIResponder+Coordinating.h in Headers */,
 			);
@@ -335,6 +390,8 @@
 				5A2C65801FF7D0700072E30F /* LaunchScreen.storyboard in Resources */,
 				5A2C65A61FF7EE420072E30F /* SignUpViewController.xib in Resources */,
 				5A2C657D1FF7D0700072E30F /* Assets.xcassets in Resources */,
+				5A1F1D191FFB337400378202 /* FeedViewController.xib in Resources */,
+				5A1F1D101FFB31E500378202 /* SettingsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,12 +409,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A1F1D171FFB32A500378202 /* Feed.m in Sources */,
 				5A2C65A01FF7EE230072E30F /* LoginViewController.m in Sources */,
 				5A2C65971FF7DFC80072E30F /* AppCoordinator.m in Sources */,
+				5A1F1D081FFB31AA00378202 /* FeedCoordinator.m in Sources */,
 				5A2C65A91FF7EE700072E30F /* MainCoordinator.m in Sources */,
 				5A2C659C1FF7EDFB0072E30F /* LoginCoordinator.m in Sources */,
+				5A1F1D131FFB320000378202 /* SettingsCoordinator.m in Sources */,
 				5A2C65831FF7D0700072E30F /* main.m in Sources */,
+				5A1F1D0B1FFB31BC00378202 /* FeedViewController.m in Sources */,
 				5A2C65751FF7D0700072E30F /* AppDelegate.m in Sources */,
+				5A1F1D0F1FFB31E500378202 /* SettingsViewController.m in Sources */,
 				5A2C65A51FF7EE420072E30F /* SignUpViewController.m in Sources */,
 				5A2C65AD1FF7F0DB0072E30F /* SignUpCoordinator.m in Sources */,
 			);
@@ -370,7 +432,7 @@
 				5AB289EF1FFA3611004E78E1 /* UIResponder+Coordinating.m in Sources */,
 				5AB289E31FFA3611004E78E1 /* NavigationCoordinator.m in Sources */,
 				5AB289EB1FFA3611004E78E1 /* UIViewController+Coordinating.m in Sources */,
-				5AB289E21FFA3611004E78E1 /* Router.m in Sources */,
+				5AB289E21FFA3611004E78E1 /* NavigationRouter.m in Sources */,
 				5AB289F61FFA40D4004E78E1 /* Coordinator.m in Sources */,
 				5AB289F41FFA3A3B004E78E1 /* WindowCoordinator.m in Sources */,
 				5AB289E81FFA3611004E78E1 /* WindowRouter.m in Sources */,
