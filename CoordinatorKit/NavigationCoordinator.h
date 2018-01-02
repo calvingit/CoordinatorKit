@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "Coordinator.h"
-#import "NavigationRouter.h"
+#import "Presentable.h"
+
+@class NavigationRouter;
 
 /*
  Coordinators are a design pattern that encourages decoupling view controllers
@@ -36,8 +38,8 @@
  */
 @interface NavigationCoordinator : Coordinator <Presentable>
 
-@property (nonatomic, readonly) id<Routable> router;
+@property (nonatomic, readonly) NavigationRouter *router;
 
-- (instancetype)initWithRouter:(id<Routable>)router;
+- (instancetype)initWithRouter:(NavigationRouter *)router;
 
 @end

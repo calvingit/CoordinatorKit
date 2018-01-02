@@ -7,15 +7,16 @@
 //
 
 #import "NavigationCoordinator.h"
+#import "NavigationRouter.h"
 #import "UIResponder+Coordinating.h"
 
 @interface NavigationCoordinator ()
-@property (nonatomic) id<Routable> router;
+@property (nonatomic) NavigationRouter *router;
 @end
 
 @implementation NavigationCoordinator
 
-- (instancetype)initWithRouter:(id<Routable>)router{
+- (instancetype)initWithRouter:(NavigationRouter *)router{
     if (self = [super init]) {
         _router = router;
     }
