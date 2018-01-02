@@ -13,6 +13,8 @@
 
 @interface WindowCoordinator : Coordinator
 
+@property (nonatomic, readonly) WindowRouter *router;
+
 - (instancetype)initWithWindowRouter:(WindowRouter *)router;
 
 @end

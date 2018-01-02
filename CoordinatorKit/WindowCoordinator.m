@@ -8,7 +8,6 @@
 
 #import "WindowCoordinator.h"
 #import "WindowRouter.h"
-#import "NavigationCoordinator.h"
 
 @interface WindowCoordinator ()
 @property (nonatomic) WindowRouter *router;
